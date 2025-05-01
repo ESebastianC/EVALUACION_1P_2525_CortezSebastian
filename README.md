@@ -1,5 +1,5 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad Universidad Tecnica de Ambato 
+## Facultad de Ingenieria en Sistemas Electronica e Industrial FISEI 
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
@@ -110,8 +110,20 @@ En este caso, se configuró para que ignore:
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+### Comandos utilizados en el proceso:
 
+
+git flow feature start ingresar-encabezado
+git flow feature finish ingresar-encabezado
+git tag "Pregunta 3" 
+
+Descripción del proceso:
+Inicialicé el flujo de trabajo con git flow init, lo que creó las ramas main y develop. Luego comencé una nueva feature (ingresar-encabezado) donde añadí mis datos personales al inicio del README. Hice un commit con esos cambios y finalmente finalicé la feature con git flow feature finish, lo que fusionó los cambios en develop.
+
+**Evidencia**:
+![Finalizar la feature](img/3.png)
+![Merge](img/4.png)
+![Mensaje final del merge](img/5.png)
 ---
 
 ## Pregunta 4 (2 puntos)
@@ -143,7 +155,16 @@ En este caso, se configuró para que ignore:
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+¿Qué es un issue en GitHub?
+Un issue es una herramienta para reportar tareas, errores, ideas o mejoras dentro de un repositorio. Permite registrar y asignar trabajo, establecer prioridades y mantener un seguimiento organizado del progreso.
+
+¿Qué es un pull request?
+Un pull request (PR) es una solicitud para fusionar cambios desde una rama a otra (por ejemplo, desde develop a main). Antes de fusionarse, el PR puede ser revisado por otros colaboradores para discutir los cambios, proponer mejoras o aprobarlos.
+
+Diferencias y relación entre ambos:
+Un issue representa un problema o tarea.
+Un pull request es la implementación que resuelve uno o más issues.
+En equipos colaborativos, se suelen abrir issues para asignar trabajo, y luego vincularlos a PRs que los resuelven.
 
 ---
 
